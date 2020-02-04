@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:egg",
+            "item_h": "minecraft:egg"
+        },
+        {
+            "item": "minecraft:wheat",
+            "item_h": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:milk_bucket",
+            "item_h": "minecraft:milk_bucket"
+        },
+        {
+            "item": "minecraft:water_bucket",
+            "item_h": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "theevanmod:pancake_batter",
+        "item_h": "theevanmod:pancake_batter",
+        "count": 1
+    }
+}
