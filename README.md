@@ -1,12 +1,13 @@
-#The Evan Mod Ver 1.1
+# The Evan Mod Ver 1.1
 
 Minecraft Forge: 1.15.2
 
-#New Stuff
+# New Stuff
 
-Added Infinity Ingot and Infinity Block
+-Infinity Ingot
+-Infinity Block
 
-#Crafting
+# Crafting
 
 Pancake Batter: Milk, Water Bucket, Wheat, Egg. It can be anywhere on the grid.
 
