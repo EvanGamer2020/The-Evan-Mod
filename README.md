@@ -5,6 +5,7 @@ Minecraft Forge: 1.15.2
 # New Stuff
 
 -Infinity Ingot
+
 -Infinity Block
 
 # Crafting
