@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ttt",
+        "ttt",
+        "ttt"
+    ],
+    "key": {
+        "t": {
+            "item": "theevanmod:infinity_ingot"
+        }
+    },
+    "result": {
+        "item": "theevanmod:infinity_block",
+        "item_h": "theevanmod:infinity_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:oak_planks",
+            "item_h": "minecraft:oak_planks"
+        },
+        {
+            "item": "minecraft:cobblestone",
+            "item_h": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:iron_ingot",
+            "item_h": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot",
+            "item_h": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:diamond",
+            "item_h": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:emerald",
+            "item_h": "minecraft:emerald"
+        }
+    ],
+    "result": {
+        "item": "theevanmod:infinity_ingot",
+        "item_h": "theevanmod:infinity_ingot",
+        "count": 1
+    }
+}

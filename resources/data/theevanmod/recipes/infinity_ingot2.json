@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "theevanmod:infinity_block",
+            "item_h": "theevanmod:infinity_block"
+        }
+    ],
+    "result": {
+        "item": "theevanmod:infinity_ingot",
+        "item_h": "theevanmod:infinity_ingot",
+        "count": 9
+    }
+}
