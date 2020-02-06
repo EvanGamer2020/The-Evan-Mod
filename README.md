@@ -17,3 +17,7 @@ Pancake: Pancake Batter. Just smelt it.
 Infinity Ingot: Oak Plank, Cobblestone, Iron, Gold, Diamond, Emerald. It can be anywhere on the grid.
 
 Infinity Block: 9 Infinity Ingots. Just like an iron block.
+
+# Discord
+
+https://discord.gg/TRbtFX5
