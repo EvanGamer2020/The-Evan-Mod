@@ -29,6 +29,6 @@ public class ItemInit {
 		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.COOKED_BEEF)).setRegistryName("pancake"));
 		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.CARROT)).setRegistryName("pancake_batter"));
 		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName("infinity_ingot"));
-		event.getRegistry().register(new PickaxeItem(ModItemTier.infinity , 4, -2.0f, new Item.Properties().addToolType(net.minecraftforge.common.ToolType.PICKAXE, 3).group(ItemGroup.TOOLS)).setRegistryName("infinity_pickaxe"));
+		event.getRegistry().register(new PickaxeItem(ModItemTier.infinity, 4, -2.0f, new Item.Properties().addToolType(net.minecraftforge.common.ToolType.PICKAXE, 3).group(ItemGroup.TOOLS)).setRegistryName("infinity_pickaxe"));
 	}
 }
