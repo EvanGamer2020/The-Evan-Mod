@@ -1,5 +1,6 @@
 package evangamer2018.theevanmod.init;
 
+// Imports
 import java.util.function.Supplier;
 
 import evangamer2018.theevanmod.init.ItemInit;
@@ -7,6 +8,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
+// Setup Material
 public enum ModItemTier implements IItemTier 
 {
     infinity(3, 3000, 14.0F, 1.5F, 30, () -> {
@@ -21,7 +23,8 @@ public enum ModItemTier implements IItemTier
     private final LazyValue<Ingredient> repairMaterial;
     
 	
-	private ModItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) 
+	// Setup Vars 1
+    private ModItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) 
     {
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
@@ -31,7 +34,8 @@ public enum ModItemTier implements IItemTier
         this.repairMaterial = new LazyValue<>(repairMaterialIn);
     }
 
-	@Override
+	// Setup Vars 2
+    @Override
     public int getMaxUses() 
     {
         return this.maxUses;

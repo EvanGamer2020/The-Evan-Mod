@@ -1,5 +1,6 @@
 package evangamer2018.theevanmod.init;
 
+// Imports
 import evangamer2018.theevanmod.main;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -21,11 +22,13 @@ public class BlockInit {
 	
 	@SubscribeEvent
 	public static void registerBlocks(final RegistryEvent.Register<Block> event) {
+		// Register Block
 		event.getRegistry().register(new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 2.0f).sound(SoundType.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE)).setRegistryName("infinity_block"));
 	}
 	
 	@SubscribeEvent
 	public static void registerItemBlocks(final RegistryEvent.Register<Item> event) {
+		// Register Item For The Block
 		event.getRegistry().register (new BlockItem(infinity_block, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("infinity_block"));
 	}
 }
