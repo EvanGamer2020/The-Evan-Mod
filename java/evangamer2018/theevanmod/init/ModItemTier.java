@@ -15,6 +15,7 @@ public enum ModItemTier implements IItemTier
     	return Ingredient.fromItems(ItemInit.infinity_ingot);
     });
     
+	// Setup Vars 1
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
@@ -23,7 +24,7 @@ public enum ModItemTier implements IItemTier
     private final LazyValue<Ingredient> repairMaterial;
     
 	
-	// Setup Vars 1
+	// Setup Vars 2
     private ModItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) 
     {
         this.harvestLevel = harvestLevelIn;
@@ -34,7 +35,7 @@ public enum ModItemTier implements IItemTier
         this.repairMaterial = new LazyValue<>(repairMaterialIn);
     }
 
-	// Setup Vars 2
+	// Setup Vars 3
     @Override
     public int getMaxUses() 
     {
